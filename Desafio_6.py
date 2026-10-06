@@ -10,3 +10,21 @@
 # Nome: Gustavo B
 # Hora : 15
 # Boa Tarde, Gustavo B
+
+def cumprimentar(nome, hora):
+    
+    if hora >=5 and hora <=12:
+        return(f"Bom dia, {nome}")
+
+    elif hora >=12 and hora <=18:
+        return(f"Boa tarde, {nome}")
+
+    elif hora >=18 and hora <=24:
+        return(f"Boa noite, {nome}")
+
+    else:
+        return(f"Boa madrugada, {nome}")
+
+print(cumprimentar("Allana", 9))
+
+print(cumprimentar("Gustavo B", 1))

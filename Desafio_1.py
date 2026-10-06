@@ -1,2 +1,6 @@
 # Faça um código que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento
+salario = float(input("Qual é o seu salario? "))
+soma = salario * 0.15
+novo = salario + soma
+print(f"Esse e o seu novo salario R${novo}")
 # Exemplo de Resultado: O Seu salário atual é de R$1500,00 com o aumento de 15% seu novo salário será de R$1725,00

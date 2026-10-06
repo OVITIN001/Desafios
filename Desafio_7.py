@@ -11,3 +11,16 @@
 # valor_conta = 100
 # qualidade_servico = 'excelente'
 # o valor da gorjeta é de R$ 5,00
+def gorjeta(qualidade_servico,valor_conta):
+    if qualidade_servico == 'ruim':
+        gorjeta = 0.0
+    elif qualidade_servico == 'medio':
+        gorjeta = 0.02
+    elif qualidade_servico == 'bom':
+        gorjeta = 0.04 
+    elif qualidade_servico == 'excelente':
+        gorjeta = 0.05 
+    else:
+        
+        gorjeta1 = valor_conta * gorjeta
+    print(f"O valor da gorjeta é de R$ {gorjeta1:.2f}")
